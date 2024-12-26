@@ -107,7 +107,7 @@ document.addEventListener("DOMContentLoaded", function() {
         },
         (error) => {
             console.error("Error getting location:", error);
-            cardData.innerHTML = `<p class="text-white mx-auto text-center fs-5">Unable to retrieve your location.</p>`;
+            cardData.innerHTML = `<p class="text-white mx-auto text-center m-auto fs-5">Unable to retrieve your location.</p>`;
         }
     );
 });
